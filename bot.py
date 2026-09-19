@@ -202,7 +202,7 @@ async def download_handler(
 
             if os.path.getsize(file_path) > 50_000_000:
                 await edit_status(
-                    "❌ This MP3 is too large to send.\n"
+                    "This MP3 is too large to send.\n"
                     "Please try another YouTube link with a shorter video."
                 )
                 return
@@ -226,7 +226,7 @@ async def download_handler(
         "✅ Download completed successfully!\n\n"
         "🎧 Enjoy your music.\n"
         "🙏 Thanks for using my bot!\n\n"
-        "If you like this bot, please share it with your friends ❤️\n\n"
+        "If you like this bot, please share it with your friends \n\n"
         "👨‍💻 Developed by SEM Bunly"
     )
 
