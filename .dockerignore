@@ -1,0 +1,5 @@
+# Only application source and dependencies are needed in the image.
+**
+!Dockerfile
+!requirements.txt
+!bot.py
